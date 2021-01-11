@@ -26,4 +26,15 @@
         </pluginManagement>
     </build>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://nexus.ci-cd.apps.ocp.example.com/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://nexus.ci-cd.apps.ocp.example.com/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
+    
 </project>
